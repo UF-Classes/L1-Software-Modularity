@@ -20,7 +20,7 @@ display_bus = displayio.FourWire(
     reset=board.D24,
     baudrate=24000000
 )
-display = ILI9341(display_bus, WIDTH, HEIGHT)
+display = ILI9341(display_bus, width=WIDTH, height=HEIGHT)
 
 gui = UniGui(WIDTH, HEIGHT, colorscheme=CS)
 
