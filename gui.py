@@ -15,7 +15,7 @@ display = PygameDisplay(WIDTH, HEIGHT)
 gui = UniGui(WIDTH, HEIGHT, colorscheme=CS)
 
 tw = TextWidget("tw", 0, 0, WIDTH, HEIGHT, colorscheme=CS)
-tw.set_value("hello world!")
+tw.set_value("go gators!")
 gui.add_widget(tw)
 
 display.show(gui)
